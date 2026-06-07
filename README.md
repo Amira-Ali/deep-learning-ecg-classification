@@ -62,7 +62,7 @@ Validation loss stabilised to 0.1142 with AUC-PR peaking at 0.9905. Learning rat
 
 Five configurations were tested across dropout rate, learning rate, and batch size. AUC-PR on both datasets was used as the combined selection criterion. The best configuration (dropout=0.3, lr=0.001, batch_size=64) was used to retrain the final models.
 
-![Hyperparameter Tuning](Hyperparameter_Impact_on_Minority_Class_Detection__AUC-PR_.png)
+![Hyperparameter Tuning](Hyperparameter_Impact.png)
 
 ---
 
