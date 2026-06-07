@@ -1,5 +1,8 @@
 # ECG Heartbeat Classification — 1D CNN
 
+**Amira Shlebik** [GitHub](https://github.com/Amira-Ali)
+
+## Overview
 A deep learning project classifying ECG heartbeats across two PhysioNet datasets using a 1D Convolutional Neural Network built in TensorFlow/Keras. Benchmarked against Logistic Regression and Random Forest baselines.
 
 ---
