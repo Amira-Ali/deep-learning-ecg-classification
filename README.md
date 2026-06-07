@@ -19,7 +19,7 @@ Both datasets were preprocessed by Kachuee et al. (2018): segmented, resampled t
 
 Both datasets are heavily imbalanced — MIT-BIH is 82.8% Normal, PTB is 72.2% Normal. AUC-PR was used as the primary evaluation metric rather than accuracy.
 
-![Class Distribution](images/class_distribution.png)
+![Class Distribution](class_distribution.png)
 
 ---
 
@@ -48,7 +48,7 @@ Best hyperparameters (manual grid search): `dropout=0.3`, `lr=0.001`, `batch_siz
 
 Validation loss stabilised to 0.1142 with AUC-PR peaking at 0.9905. Learning rate reductions at epochs 27 and 36 drove further improvement.
 
-![MIT CNN Training Curves](images/MIT_CNN_curves.png)
+![MIT CNN Training Curves](MIT_CNN_curves.png)
 
 ---
 
@@ -58,13 +58,13 @@ Validation loss stabilised to 0.1142 with AUC-PR peaking at 0.9905. Learning rat
 
 The 1D CNN matched or outperformed both baselines on MIT-BIH (AUC 0.988 vs Random Forest 0.987) and achieved near-perfect separation on PTB (AUC 1.000).
 
-![ROC Curves](images/roc_curves.png)
+![ROC Curves](roc_curves.png)
 
 ### Confusion Matrices
 
 The CNN substantially improved minority-class recall on MIT-BIH compared to Logistic Regression, particularly for Fusion (F: 0.88) and Atrial Premature (S: 0.84). PTB classification was near-perfect with only 16 misclassifications across 2,587 test records.
 
-![Confusion Matrices](images/confusion_matrices.png)
+![Confusion Matrices](confusion_matrices.png)
 
 ### Summary
 
